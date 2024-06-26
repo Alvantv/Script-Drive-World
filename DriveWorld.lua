@@ -81,7 +81,7 @@ end
 Main:Toggle({
     Name = "Auto Delivery Truck",
 	StartingState = false,
-    Description = "Use Full-E or Casper for more money(work in USA map only) wait for 10 sec",
+    Description = "Use Full-E or Casper for more money(work in USA map only) wait for 40 sec",
 	Callback = function(state)
         Driveworld["autodelivery"] = state
     end
