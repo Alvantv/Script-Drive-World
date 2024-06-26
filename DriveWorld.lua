@@ -293,7 +293,7 @@ task.spawn(function()
             if CompletionRegion and CompletionRegion:FindFirstChild("Primary").CFrame then
                 completepos = CompletionRegion:FindFirstChild("Primary").CFrame * CFrame.new(0,3,0)
             end
-            for i = 1, 27 do
+            for i = 1, 25 do
                 if not Driveworld["autodeliverymaterial"] or not getvehicle() or not getchar() or isvehicle() == false or Contracts.Visible == false then
                     break
                 end
